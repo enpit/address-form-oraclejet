@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "fields": {
+      "description": "A JSON.stringify-ed array containig all the field names that should be included in the component. Currently supported are: 'name', 'address', 'city'",
+      "type": "string"
+    }
+  },
+  "methods": {},
+  "events": {
+    "submit": {
+      "description": "Fires when the user clicks the submit button.",
+      "bubbles": false,
+      "detail": {
+         "value": {
+           "description": "An object containing the input data: name, firstName, address, cityCode, city, email, phone",
+           "type": "Object"
+         }
+       }
+     },
+     "validate": {
+       "description": "Fires when the form is validated.",
+       "bubbles": false,
+       "detail": {
+         "value": {
+           "description": "A boolean indicating whether the input data is valid",
+           "type": "boolean"
+         }
+       }
+     }
+   }
+ }

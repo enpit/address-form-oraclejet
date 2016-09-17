@@ -1,0 +1,83 @@
+<div class="address-form oj-form oj-md-odd-cols-4 oj-md-labels-inline">
+    <div class="oj-row" data-bind="if: fields.name">
+        <div class="oj-col">
+            <input class="nameControl" placeholder="Your surname" required data-bind="ojComponent: {
+                    component: 'ojInputText',
+                    value: name,
+                    required: fields.name.required,
+                    rootAttributes: {style:'max-width:50%'}
+                }">
+        </div>
+        <div class="oj-col">
+            <input class="firstnameControl" placeholder="Your first name" required data-bind="ojComponent: {
+                    component: 'ojInputText',
+                    value: firstName,
+                    required: fields.name.required,
+                    rootAttributes: {style:'max-width:50%'}
+                }">
+        </div>
+    </div>
+    <div class="oj-row" data-bind="if: fields.name">
+        <div class="oj-col">
+            <input class="addressControl" placeholder="Address excl. number" required data-bind="ojComponent: {
+                    component: 'ojInputText',
+                    value: address,
+                    required: fields.address.required,
+                    rootAttributes: {style:'max-width:100%'}
+                }">
+        </div>
+        <div class="oj-col">
+            <input class="addressNumberControl" placeholder="Number" required data-bind="ojComponent: {
+                    component: 'ojInputNumber',
+                    value: addressNumber,
+                    required: fields.address.required,
+                    rootAttributes: {style:'max-width:5em'}
+                }">
+        </div>
+    </div>
+    <div class="oj-row" data-bind="if: fields.city">
+        <div class="oj-col">
+            <input class="postalCodeControl" placeholder="Zip Code" required data-bind="ojComponent: {
+                        component: 'ojInputNumber',
+                        value: cityCode,
+                        required: fields.city.required,
+                        rootAttributes: {style:'max-width:10em'}
+                    }">
+        </div>
+        <div class="oj-col">
+            <input class="cityControl" placeholder="City" required data-bind="ojComponent: {
+                      component: 'ojInputText',
+                      value: city,
+                      required: fields.city.required,
+                      rootAttributes: {style:'max-width:100%'}
+                  }">
+        </div>
+    </div>
+    <div class="oj-row" data-bind="if: fields.phone">
+        <div class="oj-col">
+            <input class="phoneControl" placeholder="Phone" required data-bind="ojComponent: {
+                      component: 'ojInputText',
+                      value: phone,
+                      required: fields.phone.required,
+                      rootAttributes: {style:'max-width:100%'}
+                  }">
+        </div>
+    </div>
+    <div class="oj-row" data-bind="if: fields.email">
+        <div class="oj-col">
+            <input class="emailControl" placeholder="Email" required data-bind="ojComponent: {
+                      component: 'ojInputText',
+                      value: phone,
+                      required: fields.email.required,
+                      rootAttributes: {style:'max-width:100%'}
+                  }">
+        </div>
+    </div>
+    <button id="address-form-button" class="address-form-button oj-button oj-button-confirm" data-bind=" click: submit,
+                      ojComponent: {
+                          component: 'ojButton',
+                          label: 'Submit',
+                          disabled: !isValid()
+                      }">
+  </button>
+</div>
