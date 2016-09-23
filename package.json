@@ -13,8 +13,13 @@
   "keywords": [
     "oraclejet",
     "oracle",
-    "jet"
+    "jet",
+    "composite component",
+    "form"
   ],
-  "author": "Janis Krasemann <janis.krasemann@enpit.de> (http://www.github.com/enpit)",
+  "author": "enpit GmbH & Co. KG <info@enpit.de> (http://www.enpit.de)",
+  "contributors": [
+    "Janis Krasemann <janis.krasemann@enpit.de> (http://www.github.com/janis-kra)"
+  ],
   "license": "MIT"
 }

@@ -1,0 +1,29 @@
+{
+  "name": "address-form-oraclejet",
+  "version": "0.1.0",
+  "description": "An address form composite component that you can use in your Oracle JET application.",
+  "main": "form.js",
+  "authors": [
+    "enpit GmbH & Co. KG <info@enpit.de> (http://www.enpit.de)"
+  ],
+  "dependencies": {
+    "oraclejet": "2.1.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "oraclejet",
+    "oracle",
+    "jet",
+    "composite",
+    "component",
+    "form"
+  ],
+  "homepage": "https://github.com/enpit/address-form-oraclejet",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
