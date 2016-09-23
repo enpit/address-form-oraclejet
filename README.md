@@ -20,7 +20,7 @@ require([
         'jquery',
         'ojs/ojknockout',
         'ojs/ojcomposite',
-        // load address-form-oraclejet via requirejs paths, then:
+        // remember to load address-form-oraclejet via requirejs' paths, so you can do:
         'address-form-oraclejet/loader'
     ],
     function(oj, ko, $) {
