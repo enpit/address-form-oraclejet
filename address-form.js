@@ -24,8 +24,7 @@ define(['knockout', 'ojs/ojbutton', 'ojs/ojinputtext', 'ojs/ojinputnumber'], fun
 
     // events:
     self.submit = function () {
-      var button, data;
-      button = document.getElementById('address-form-button');
+      var data;
       data = {
         name: self.name(),
         firstName: self.firstName(),
@@ -36,13 +35,12 @@ define(['knockout', 'ojs/ojbutton', 'ojs/ojinputtext', 'ojs/ojinputnumber'], fun
         phone: self.phone(),
         email: self.email()
       };
-      console.log(data);
-      window.dispatchEvent(new CustomEvent('submit', { detail: data }));
+      window.dispatchEvent(new CustomEvent('address-form:submit', { detail: data }));
     }
     self.isValid = function (element) {
       // TODO: Implement validation
       var valid = true;
-      window.dispatchEvent(new CustomEvent('validation', { detail: valid }));
+      window.dispatchEvent(new CustomEvent('address-form:validation', { detail: valid }));
       return valid;
     }
   }

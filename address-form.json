@@ -7,7 +7,7 @@
   },
   "methods": {},
   "events": {
-    "submit": {
+    "address-form:submit": {
       "description": "Fires when the user clicks the submit button.",
       "bubbles": false,
       "detail": {
@@ -17,7 +17,7 @@
          }
        }
      },
-     "validate": {
+     "address-form:validate": {
        "description": "Fires when the form is validated.",
        "bubbles": false,
        "detail": {
