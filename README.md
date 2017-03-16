@@ -27,7 +27,7 @@ require([
         // do your oraclejet setup stuff here
         // ...
         // to subscribe to the submit event of the address-form component, do:                
-        window.addEventListener('address-form:submit', function (event) {
+        window.addEventListener('submit', function (event) {
             console.log(event.detail); // logs the form data as an object
         });
     }
