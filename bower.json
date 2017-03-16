@@ -7,7 +7,7 @@
     "enpit GmbH & Co. KG <info@enpit.de> (http://www.enpit.de)"
   ],
   "dependencies": {
-    "oraclejet": "2.1.0"
+    "oraclejet": "^2.1.0"
   },
   "license": "MIT",
   "keywords": [
