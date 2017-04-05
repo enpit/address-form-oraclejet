@@ -1,0 +1,16 @@
+{
+  "name": "address-form-oraclejet",
+  "version": "0.1.2",
+  "description": "An address form composite component that you can use in your Oracle JET application.",
+  "main": "loader.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enpit/address-form-oraclejet.git"
+  },
+  "author": "Janis Krasemann <janis.krasemann@enpit.de> (http://www.github.com/enpit)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enpit/address-form-oraclejet/issues"
+  },
+  "homepage": "https://github.com/enpit/address-form-oraclejet#readme"
+}
