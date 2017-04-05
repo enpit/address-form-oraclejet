@@ -1,3 +1,11 @@
 .address-form-button {
   text-align: center;
 }
+
+.oj-flex-item {
+  margin-left: 5px;
+}
+
+.oj-flex:first-child {
+  margin-left: 0px;
+}
