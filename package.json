@@ -1,6 +1,6 @@
 {
   "name": "address-form-oraclejet",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "An address form composite component that you can use in your Oracle JET application.",
   "main": "loader.js",
   "repository": {
